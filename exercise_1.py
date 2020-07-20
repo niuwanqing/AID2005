@@ -5,7 +5,7 @@
 
 from  socket import *
 
-# 创建tcp套接字
+# 创建tcp套接字----
 s = socket()
 s.bind(("0.0.0.0",8888))
 s.listen(5)
